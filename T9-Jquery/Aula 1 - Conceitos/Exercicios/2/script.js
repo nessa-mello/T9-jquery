@@ -11,6 +11,7 @@ $(Document).ready (function() {
   const bodyColor = $('body')
   bodyColor.css('background', 'magenta')
 
+  //if para o h1 voltar pra ligado
   function changBg() {
     if(bodyColor[0].style.background == 'yellow') {
     $('body').css('background', 'black');
@@ -33,3 +34,8 @@ $('#botao').click(function() {
 // // ou
 // $('#botao').click(changeBg)
 // ])
+// Outra forma de resolver
+
+$(document).ready(function( {
+
+})
